@@ -15,6 +15,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *stateNameTextField;
 @property (weak, nonatomic) IBOutlet UIImageView *cityImageView;
 @property (weak, nonatomic) IBOutlet UILabel *wikipediaLabel;
+@property (weak, nonatomic) IBOutlet UIButton *changeTitle;
 
 @end
 
@@ -26,7 +27,6 @@
     self.cityNameTextField.text = self.city.cityName;
     self.stateNameTextField.text = self.city.stateName;
     self.cityImageView.image = self.city.cityImage;
-
 }
 
 - (IBAction)onLabelTapped:(UITapGestureRecognizer *)tapGestureRecognizer
@@ -65,8 +65,5 @@
 {
     [self.delegate changeRootViewTitleButtonTapped:self.city.cityName];
 }
-
-
-
 
 @end

@@ -14,6 +14,7 @@
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property DetailViewController *detailViewController;
+
 @end
 
 @implementation MainViewController
@@ -23,10 +24,7 @@
     [super viewDidLoad];
 
     // initialize array with cities
-    [self populateCitiesInArray];
-    self.navigationItem.title = @"Favorite Cities";
-    self.detailViewController.delegate = self;
-    
+    [self populateCitiesInArray];   
 }
 
 -(void)viewDidAppear:(BOOL)animated
@@ -38,8 +36,6 @@
 
 -(void)changeRootViewTitleButtonTapped:(NSString *)cityName
 {
-    NSLog(@"It's working");
-
     self.navigationItem.title = cityName;
 }
 
@@ -85,6 +81,7 @@
         DetailViewController *vc = segue.destinationViewController;
         vc.city = city;
         vc.title = city.cityName;
+        vc.delegate = self;
     }
 }
 
