@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		56FE1CEF1ABC61B90032502A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FE1CEE1ABC61B90032502A /* main.m */; };
 		56FE1CF21ABC61B90032502A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FE1CF11ABC61B90032502A /* AppDelegate.m */; };
-		56FE1CF51ABC61B90032502A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FE1CF41ABC61B90032502A /* ViewController.m */; };
+		56FE1CF51ABC61B90032502A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FE1CF41ABC61B90032502A /* MainViewController.m */; };
 		56FE1CF81ABC61B90032502A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FE1CF61ABC61B90032502A /* Main.storyboard */; };
-		56FE1CFA1ABC61B90032502A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56FE1CF91ABC61B90032502A /* Images.xcassets */; };
 		56FE1CFD1ABC61B90032502A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56FE1CFB1ABC61B90032502A /* LaunchScreen.xib */; };
 		56FE1D091ABC61B90032502A /* WeekTwoAssessmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FE1D081ABC61B90032502A /* WeekTwoAssessmentTests.m */; };
+		56FE1D141ABC62FB0032502A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FE1D131ABC62FB0032502A /* DetailViewController.m */; };
+		56FE1D171ABC63230032502A /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FE1D161ABC63230032502A /* City.m */; };
+		56FE1D191ABC69950032502A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56FE1D181ABC69950032502A /* Images.xcassets */; };
+		56FE1D1C1ABC79030032502A /* WikipediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FE1D1B1ABC79030032502A /* WikipediaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,20 @@
 		56FE1CEE1ABC61B90032502A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		56FE1CF01ABC61B90032502A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		56FE1CF11ABC61B90032502A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		56FE1CF31ABC61B90032502A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		56FE1CF41ABC61B90032502A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		56FE1CF31ABC61B90032502A /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		56FE1CF41ABC61B90032502A /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		56FE1CF71ABC61B90032502A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		56FE1CF91ABC61B90032502A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		56FE1CFC1ABC61B90032502A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		56FE1D021ABC61B90032502A /* WeekTwoAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeekTwoAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56FE1D071ABC61B90032502A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56FE1D081ABC61B90032502A /* WeekTwoAssessmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeekTwoAssessmentTests.m; sourceTree = "<group>"; };
+		56FE1D121ABC62FB0032502A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		56FE1D131ABC62FB0032502A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		56FE1D151ABC63230032502A /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		56FE1D161ABC63230032502A /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		56FE1D181ABC69950032502A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		56FE1D1A1ABC79030032502A /* WikipediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikipediaViewController.h; sourceTree = "<group>"; };
+		56FE1D1B1ABC79030032502A /* WikipediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikipediaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +92,17 @@
 			children = (
 				56FE1CF01ABC61B90032502A /* AppDelegate.h */,
 				56FE1CF11ABC61B90032502A /* AppDelegate.m */,
-				56FE1CF31ABC61B90032502A /* ViewController.h */,
-				56FE1CF41ABC61B90032502A /* ViewController.m */,
+				56FE1D151ABC63230032502A /* City.h */,
+				56FE1D161ABC63230032502A /* City.m */,
+				56FE1CF31ABC61B90032502A /* MainViewController.h */,
+				56FE1CF41ABC61B90032502A /* MainViewController.m */,
+				56FE1D121ABC62FB0032502A /* DetailViewController.h */,
+				56FE1D131ABC62FB0032502A /* DetailViewController.m */,
+				56FE1D1A1ABC79030032502A /* WikipediaViewController.h */,
+				56FE1D1B1ABC79030032502A /* WikipediaViewController.m */,
 				56FE1CF61ABC61B90032502A /* Main.storyboard */,
-				56FE1CF91ABC61B90032502A /* Images.xcassets */,
 				56FE1CFB1ABC61B90032502A /* LaunchScreen.xib */,
+				56FE1D181ABC69950032502A /* Images.xcassets */,
 				56FE1CEC1ABC61B90032502A /* Supporting Files */,
 			);
 			path = WeekTwoAssessment;
@@ -199,9 +214,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56FE1D191ABC69950032502A /* Images.xcassets in Resources */,
 				56FE1CF81ABC61B90032502A /* Main.storyboard in Resources */,
 				56FE1CFD1ABC61B90032502A /* LaunchScreen.xib in Resources */,
-				56FE1CFA1ABC61B90032502A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56FE1CF51ABC61B90032502A /* ViewController.m in Sources */,
+				56FE1D171ABC63230032502A /* City.m in Sources */,
+				56FE1CF51ABC61B90032502A /* MainViewController.m in Sources */,
 				56FE1CF21ABC61B90032502A /* AppDelegate.m in Sources */,
 				56FE1CEF1ABC61B90032502A /* main.m in Sources */,
+				56FE1D1C1ABC79030032502A /* WikipediaViewController.m in Sources */,
+				56FE1D141ABC62FB0032502A /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +430,7 @@
 				56FE1D0E1ABC61B90032502A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56FE1D0F1ABC61B90032502A /* Build configuration list for PBXNativeTarget "WeekTwoAssessmentTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +439,7 @@
 				56FE1D111ABC61B90032502A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

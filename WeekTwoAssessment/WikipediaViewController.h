@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WikipediaViewController.h
 //  WeekTwoAssessment
 //
 //  Created by Leandro Pessini on 3/20/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface WikipediaViewController : UIViewController
 
+@property NSString *whichCity;
 
 @end
-
